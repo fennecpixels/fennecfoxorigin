@@ -1,0 +1,13 @@
+{
+    "type":"origins:multiple",
+    "glowing":{
+        "type":"origins:entity_glow",
+       "key":"primary"
+    },
+    "blindness":{
+        "type":"origins:shader",
+        "shader":"minecraft:sobel"
+    },
+    "name":"Magnetic Hunting",
+    "description":"Use your magnetic sense to focus on nearby sounds."
+}

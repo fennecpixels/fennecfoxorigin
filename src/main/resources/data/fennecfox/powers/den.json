@@ -1,0 +1,25 @@
+{
+    "type":"origins:stacking_status_effect",
+    "min_stacks":"0",
+    "max_stacks":"1",
+    "duration_per_stack":"20",
+    "hidden":false,
+    "effect":{
+        "effect":"minecraft:regeneration",
+        "show_particles":false
+    },
+    "condition":{
+        "type":"origins:and",
+        "conditions":[{
+            "type":"origins:block_collision",
+            "offset_x":"0",
+            "offset_y":"1",
+            "offset_z":"0"},
+            {"type":"origins:daytime",
+            "inverted":true
+
+        }]
+    },
+    "name":"Fox's Den",
+    "description":"You are comfortable when in small spaces at night."
+}

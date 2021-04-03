@@ -1,0 +1,22 @@
+{
+    "type": "origins:conditioned_attribute",
+    "tick_rate": 25,
+    "modifier": {
+        "operation": "addition",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.035
+    },
+    "name": "Crepuscularity",
+    "description": "You are faster at night and can take refuge in dens. However, you are inhibited during the day.",
+    "hidden": false,
+    "condition":{"type":"origins:and",
+    "conditions": [{
+        "type": "origins:food_level",
+        "inverted": false,
+        "comparison": ">=",
+        "compare_to": 14
+    },{
+        "type":"origins:daytime",
+        "inverted":true
+    }]}
+}

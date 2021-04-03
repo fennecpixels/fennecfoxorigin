@@ -1,0 +1,7 @@
+{
+    "type":"origins:disable_regen",
+    "hidden":true,
+    "condition":{
+        "type":"origins:exposed_to_sun"
+    }
+}
