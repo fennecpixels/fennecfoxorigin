@@ -1,0 +1,19 @@
+{
+    "powers":[
+        "wiicustomorigins:energetic",
+        "wiicustomorigins:magnetic_hunting",
+        "wiicustomorigins:den",
+        "origins:fall_immunity",
+        "wiicustomorigins:bite_sized",
+        "wiicustomorigins:big_brother",
+        "wiicustomorigins:small_frame",
+        "wiicustomorigins:daytime",
+        "wiicustomorigins:maghuntcheck",
+        "wiicustomorigins:pounce"
+    ],
+    "icon": "minecraft:fox_spawn_egg",
+	"order": 9,
+	"impact": 3,
+    "name":"Foxling",
+    "description":"The Foxling is a humanoid relative to the Vulpes zerda - a fennec fox. Despite their size, they still hold many of the same powers from their ancestors."
+}

@@ -1,0 +1,16 @@
+{
+    "powers":[
+        "origins:elytra",
+        "origins:launch_into_air",
+        "origins:aerial_combatant",
+        "origins:more_kinetic_damage",
+        "origins:cat_vision",
+        "origins:sprint_jump",
+        "origins:more_exhaustion"
+    ],
+    "icon":"minecraft:bat_spawn_egg",
+    "order":5,
+    "impact":2,
+    "name":"Enfield",
+    "description":"Flight and ground: your lineage grants you leverage in both."
+}

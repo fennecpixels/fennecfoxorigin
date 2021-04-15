@@ -1,0 +1,9 @@
+{
+  "type":"origins:modify_jump",
+  "modifier":{
+    "operation":"multiply_total",
+    "value":0.6,
+    "name":"Pouncing"
+  },
+  "hidden":true
+}

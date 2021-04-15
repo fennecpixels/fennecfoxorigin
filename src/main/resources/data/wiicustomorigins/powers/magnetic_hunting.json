@@ -1,0 +1,45 @@
+{
+    "type":"origins:multiple",
+    "glowing":{
+        "type":"origins:entity_glow",
+        "condition":{
+            "type":"origins:power_active",
+            "power":"wiicustomorigins:maghuntcheck"
+        }
+    },
+    "blindness":{
+        "type":"origins:shader",
+        "shader":"minecraft:shaders/post/desaturate.json",
+        "condition":{
+            "type":"origins:power_active",
+            "power":"wiicustomorigins:maghuntcheck"
+        }  
+    },
+    "sharp_fangs":{
+        "type":"origins:stacking_status_effect",
+        "min_stacks":0,
+        "max_stacks":1,
+        "duration_per_stack":30,
+        "effect":{
+            "effect":"strength",
+            "show_particles":false,
+            "show_icon":false
+        },
+        "condition":{
+            "type":"origins:power_active",
+            "power":"wiicustomorigins:maghuntcheck"
+        }
+    },
+    "hunger":{
+        "type":"origins:exhaust",
+        "interval":40,
+        "exhaustion":0.406,
+        "condition":{
+            "type":"origins:power_active",
+            "power":"wiicustomorigins:maghuntcheck"
+        }
+    },
+    
+    "name":"Magnetic Hunting",
+    "description":"Use your magnetic sense to focus on nearby sounds."
+}

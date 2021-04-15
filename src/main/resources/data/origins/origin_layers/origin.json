@@ -1,6 +1,7 @@
 {
-    "replace":false,
-    "origins":[
-        "fennecfox:fox"
-    ]
+  "replace": true,
+  "origins": [
+	"wiicustomorigins:fox",
+	"wiicustomorigins:enfield"
+  ]
 }

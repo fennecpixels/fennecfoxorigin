@@ -1,39 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Fennec Fox Origins Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "wiicustomorigins",
+  "version": "1.0.0",
+  "name": "Fox Origins Mod",
+  "description": "Adds two vulpine origins to the game, designed for a custom SMP. Framework from WiiDude's Custom Origins Mod",
   "authors": [
-    "Me!"
+    "fennecpixels",
+    "WiiDude",
+	"MoriyaShiine (for creating extra origins)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/wiidudes-fox-origin-mod/",
+	"sources": "https://github.com/Developer-Doge/Fox-Origin"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "GPL-3.0",
+  "icon": "assets/wiicustomorigins/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fforigin.fennecfox"
-    ]
+	"main": [
+	  "wiicustomorigins.common.WiiCustomOrigins"
+	]
   },
   "mixins": [
-    "fforigin.resources.mixins.json"
+	"wiicustomorigins.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "origins": ">=0.6.0",
-	  "pehkui": ">=1.9.0+21w10a",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
+	"fabricloader": ">=0.11.0",
+	"fabric": "*",
+	"minecraft": "1.16.5",
+	"origins": ">=0.6.0",
+	"pehkui": ">=1.9.0+21w10a"
   }
 }
